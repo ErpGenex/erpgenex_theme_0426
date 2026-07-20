@@ -1,0 +1,64 @@
+/*
+ * UI polish layer inspired by business_theme_v14 (MIT, Midocean-Technologies)
+ * https://github.com/Midocean-Technologies/business_theme_v14
+ * Mapped to ERPGenEx CSS variables (--egx-*) for Frappe v15 desk.
+ */
+
+:root {
+	--egx-scroll-track: color-mix(in srgb, var(--egx-surface-alt) 88%, var(--egx-bg));
+	--egx-scroll-thumb: color-mix(in srgb, var(--egx-muted) 50%, var(--egx-border));
+}
+
+*::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+*::-webkit-scrollbar-track {
+	background: var(--egx-scroll-track);
+}
+*::-webkit-scrollbar-thumb {
+	background-color: var(--egx-scroll-thumb);
+	border-radius: 20px;
+}
+* {
+	scrollbar-width: thin;
+	scrollbar-color: var(--egx-scroll-thumb) var(--egx-scroll-track);
+}
+
+.awesomplete .input-with-feedback {
+	border: 1px solid var(--egx-border);
+}
+
+.search-bar .awesomplete input {
+	background-color: var(--egx-surface);
+}
+
+.modal-backdrop.show {
+	background-color: color-mix(in srgb, var(--egx-fg) 28%, #2c436b) !important;
+}
+
+.widget .widget-head .widget-title {
+	font-size: var(--egx-font-size);
+}
+
+.comment-box .comment-input-header,
+.form-dashboard-section .section-head,
+.form-section .section-head,
+.head-title {
+	font-size: var(--egx-font-size);
+	font-weight: 600;
+}
+
+.comment-box .comment-input-container .ql-editor {
+	border: 1px solid var(--egx-border);
+	border-radius: calc(var(--egx-radius) - 2px);
+}
+
+.duration-picker .duration-input {
+	background-color: var(--egx-surface);
+	border: 1px solid var(--egx-border);
+}
+
+.control-label {
+	font-weight: 500;
+}

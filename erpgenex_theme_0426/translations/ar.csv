@@ -1,0 +1,29 @@
+Preset,قالب مسبق
+Primary,اللون الأساسي
+Primary contrast,لون النص فوق الأساسي
+Background,لون الخلفية
+Surface,لون السطح
+Foreground,لون النص
+Font stack,حزمة الخطوط
+Base font size,حجم الخط الأساسي
+Density,كثافة الواجهة
+Corner style,نمط الزوايا
+Theme mode,وضع المظهر
+ERPGenEx Desk Theme Studio,استوديو مظهر ERPGENEX للمكتب
+Apply,تطبيق
+Reset,إعادة ضبط
+Theme applied for your user session,تم تطبيق المظهر لهذه الجلسة
+Theme reset to company default,تمت إعادة المظهر إلى الافتراضي للشركة
+Theme,المظهر
+Theme — colors, font, light/dark (click or Alt+Shift+T),المظهر — الألوان والخط والوضع الفاتح/الداكن (انقر أو Alt+Shift+T)
+Open theme settings,فتح إعدادات المظهر
+Theme & appearance (ERPGenEx),المظهر والمظهر العام (ERPGENEX)
+compact,مدمج
+comfortable,مريح
+spacious,واسع
+classic,كلاسيكي
+soft,ناعم
+rounded,دائري
+auto,تلقائي
+light,فاتح
+dark,داكن

@@ -1,0 +1,16 @@
+{
+	"doctype": "Page",
+	"module": "ERPGenEx Theme 0426",
+	"name": "th-executive-dashboard",
+	"page_name": "th-executive-dashboard",
+	"standard": "Yes",
+	"title": "Executive Dashboard",
+	"roles": [
+		{
+			"role": "System Manager"
+		},
+		{
+			"role": "All"
+		}
+	]
+}

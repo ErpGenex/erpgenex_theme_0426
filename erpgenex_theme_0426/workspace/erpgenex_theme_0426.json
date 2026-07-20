@@ -1,0 +1,128 @@
+{
+    "name": "Erpgenex Theme 0426",
+    "module": "ERPGenEx Theme 0426",
+    "category": "Modules",
+    "public": 1,
+    "is_hidden": 0,
+    "links": [
+        {
+            "label": "Erpgenex Theme 0426 List",
+            "name": "erpgenex_theme_0426",
+            "type": "List",
+            "link_to": "erpgenex_theme_0426",
+            "onboard": 1
+        },
+        {
+            "label": "Erpgenex Theme 0426 Dashboard",
+            "name": "erpgenex_theme_0426_dashboard",
+            "type": "Dashboard",
+            "link_to": "erpgenex_theme_0426_dashboard",
+            "onboard": 1
+        }
+    ],
+    "shortcuts": [],
+    "number_cards": [
+        {
+            "label": "Total Records",
+            "number_card_name": "erpgenex_theme_0426_total_records",
+            "number_card_doc_type": "Number Card",
+            "is_standard": 1
+        },
+        {
+            "label": "Active Items",
+            "number_card_name": "erpgenex_theme_0426_active_items",
+            "number_card_doc_type": "Number Card",
+            "is_standard": 1
+        },
+        {
+            "label": "Pending Actions",
+            "number_card_name": "erpgenex_theme_0426_pending_actions",
+            "number_card_doc_type": "Number Card",
+            "is_standard": 1
+        },
+        {
+            "label": "Completed Tasks",
+            "number_card_name": "erpgenex_theme_0426_completed_tasks",
+            "number_card_doc_type": "Number Card",
+            "is_standard": 1
+        }
+    ],
+    "charts": [
+        {
+            "label": "Monthly Activity",
+            "chart_name": "erpgenex_theme_0426_monthly_activity",
+            "chart_type": "Line",
+            "is_standard": 1
+        },
+        {
+            "label": "Status Distribution",
+            "chart_name": "erpgenex_theme_0426_status_distribution",
+            "chart_type": "Pie",
+            "is_standard": 1
+        },
+        {
+            "label": "Performance Metrics",
+            "chart_name": "erpgenex_theme_0426_performance_metrics",
+            "chart_type": "Bar",
+            "is_standard": 1
+        }
+    ],
+    "reports": [
+        {
+            "label": "Erpgenex Theme 0426 Report",
+            "name": "erpgenex_theme_0426_report",
+            "type": "Report",
+            "is_standard": 1
+        },
+        {
+            "label": "Summary Report",
+            "name": "erpgenex_theme_0426_summary_report",
+            "type": "Report",
+            "is_standard": 1
+        },
+        {
+            "label": "Detailed Analysis",
+            "name": "erpgenex_theme_0426_detailed_analysis",
+            "type": "Report",
+            "is_standard": 1
+        },
+        {
+            "label": "Performance Report",
+            "name": "erpgenex_theme_0426_performance_report",
+            "type": "Report",
+            "is_standard": 1
+        }
+    ],
+    "operations": [
+        {
+            "label": "Create Erpgenex Theme 0426",
+            "name": "create_erpgenex_theme_0426",
+            "type": "Action",
+            "is_standard": 1
+        },
+        {
+            "label": "Import Data",
+            "name": "import_erpgenex_theme_0426_data",
+            "type": "Action",
+            "is_standard": 1
+        },
+        {
+            "label": "Export Records",
+            "name": "export_erpgenex_theme_0426_records",
+            "type": "Action",
+            "is_standard": 1
+        },
+        {
+            "label": "Settings",
+            "name": "erpgenex_theme_0426_settings",
+            "type": "Action",
+            "is_standard": 1
+        },
+        {
+            "label": "Bulk Update",
+            "name": "bulk_update_erpgenex_theme_0426",
+            "type": "Action",
+            "is_standard": 1
+        }
+    ]
+}

@@ -1,0 +1,285 @@
+/* ERPGenEx Theme 0426 — premium enterprise desk theme (app: erpgenex_theme_0426) */
+
+:root {
+	--egx-primary: #2563eb;
+	--egx-primary-contrast: #ffffff;
+	--egx-bg: #f3f7fb;
+	--egx-surface: #ffffff;
+	--egx-surface-alt: #eef4fb;
+	--egx-fg: #0f172a;
+	--egx-muted: #5b677b;
+	--egx-border: rgba(15, 23, 42, 0.09);
+	--egx-shadow-sm: 0 8px 24px rgba(15, 23, 42, 0.06);
+	--egx-shadow-md: 0 14px 34px rgba(15, 23, 42, 0.09);
+	--egx-font-sans: "Inter", "Segoe UI", "Noto Sans Arabic", "Noto Sans", Arial, sans-serif;
+	--egx-font-size: 16px;
+	--egx-density-y: 0.75rem;
+	--egx-density-x: 0.95rem;
+	--egx-radius: 10px;
+	--egx-radius-lg: 16px;
+	--egx-focus: 0 0 0 3px rgba(37, 99, 235, 0.18);
+}
+
+html[data-egx-theme="dark"] {
+	--egx-bg: #0b1220;
+	--egx-surface: #111c34;
+	--egx-surface-alt: #16243f;
+	--egx-fg: #e5edf7;
+	--egx-muted: #a8b4c8;
+	--egx-border: rgba(148, 163, 184, 0.18);
+	--egx-shadow-sm: 0 10px 30px rgba(2, 6, 23, 0.35);
+	--egx-shadow-md: 0 16px 40px rgba(2, 6, 23, 0.42);
+}
+
+html[data-egx-density="compact"] {
+	--egx-density-y: 0.55rem;
+	--egx-density-x: 0.8rem;
+}
+
+html[data-egx-density="spacious"] {
+	--egx-density-y: 0.95rem;
+	--egx-density-x: 1.15rem;
+}
+
+html[data-egx-radius="classic"] {
+	--egx-radius: 6px;
+	--egx-radius-lg: 10px;
+}
+
+html[data-egx-radius="rounded"] {
+	--egx-radius: 14px;
+	--egx-radius-lg: 20px;
+}
+
+html,
+body {
+	background: var(--egx-bg);
+	color: var(--egx-fg);
+	font-family: var(--egx-font-sans);
+	font-size: var(--egx-font-size);
+}
+
+.navbar,
+.desk-sidebar,
+.layout-main-section,
+.layout-side-section {
+	font-family: var(--egx-font-sans);
+}
+
+.navbar {
+	background: color-mix(in srgb, var(--egx-surface) 84%, transparent);
+	backdrop-filter: blur(14px);
+	border-bottom: 1px solid var(--egx-border);
+	box-shadow: 0 4px 22px rgba(15, 23, 42, 0.05);
+}
+
+.layout-main-section,
+.standard-sidebar,
+.desk-sidebar,
+.page-head,
+.widget,
+.list-row-container,
+.form-section,
+.form-dashboard-section,
+.report-summary,
+.modal-content,
+.dt-scrollable,
+.frappe-card {
+	border-radius: var(--egx-radius);
+}
+
+.widget,
+.report-summary,
+.modal-content,
+.form-section,
+.list-row-container,
+.dt-scrollable,
+.frappe-card {
+	background: var(--egx-surface);
+	border: 1px solid var(--egx-border);
+	box-shadow: var(--egx-shadow-sm);
+}
+
+.standard-sidebar,
+.desk-sidebar {
+	background: color-mix(in srgb, var(--egx-surface-alt) 92%, transparent);
+	border-right: 1px solid var(--egx-border);
+}
+
+/* Sidebar highlight: full-width selection pill (better containment) */
+.standard-sidebar {
+	padding: 10px 10px 14px;
+}
+
+.standard-sidebar .standard-sidebar-item {
+	border-radius: calc(var(--egx-radius) - 2px);
+	padding: 10px 12px;
+	margin: 4px 0;
+}
+
+.standard-sidebar .standard-sidebar-item:hover {
+	background: color-mix(in srgb, var(--egx-surface-alt) 82%, transparent);
+}
+
+.standard-sidebar .standard-sidebar-item.selected,
+.standard-sidebar .standard-sidebar-item.active {
+	background: color-mix(in srgb, var(--egx-primary) 14%, var(--egx-surface));
+	box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--egx-primary) 22%, transparent);
+}
+
+/* Ensure the clickable region fills the pill width */
+.standard-sidebar .standard-sidebar-item > a,
+.standard-sidebar .standard-sidebar-item .sidebar-link {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+/* Make the left sidebar feel wider without breaking layout */
+@media (min-width: 992px) {
+	.layout-side-section {
+		padding-inline: 8px;
+	}
+}
+
+.btn-primary,
+.page-form .btn-primary,
+.btn.btn-primary {
+	background: var(--egx-primary);
+	border-color: var(--egx-primary);
+	color: var(--egx-primary-contrast);
+	border-radius: calc(var(--egx-radius) - 2px);
+	box-shadow: 0 10px 24px color-mix(in srgb, var(--egx-primary) 22%, transparent);
+}
+
+.btn-primary:hover,
+.btn.btn-primary:hover {
+	filter: brightness(0.97);
+}
+
+.btn,
+.form-control,
+.awesomplete input,
+.control-input,
+.like-disabled-input {
+	border-radius: calc(var(--egx-radius) - 2px);
+}
+
+.form-control,
+.awesomplete input,
+.control-input,
+.like-disabled-input,
+.multiselect__tags {
+	border-color: var(--egx-border);
+	background: var(--egx-surface);
+	color: var(--egx-fg);
+	padding: var(--egx-density-y) var(--egx-density-x);
+}
+
+.form-control:focus,
+.awesomplete input:focus,
+.control-input:focus,
+textarea:focus,
+select:focus {
+	box-shadow: var(--egx-focus);
+	border-color: color-mix(in srgb, var(--egx-primary) 70%, white);
+}
+
+.control-label,
+.sidebar-item-label,
+.ellipsis {
+	color: var(--egx-fg);
+}
+
+.text-muted,
+.small,
+.comment-count,
+.standard-sidebar-item .sidebar-item-label {
+	color: var(--egx-muted) !important;
+}
+
+.page-head,
+.layout-main .page-body,
+.widget-group,
+.form-layout {
+	background: transparent;
+}
+
+.list-row:hover,
+.standard-sidebar-item:hover,
+.widget:hover {
+	background: color-mix(in srgb, var(--egx-surface-alt) 78%, transparent);
+}
+
+.selected-row,
+.standard-sidebar-item.selected,
+.standard-sidebar-item.active {
+	background: color-mix(in srgb, var(--egx-primary) 10%, var(--egx-surface));
+}
+
+.dt-cell,
+.dt-row,
+.grid-row,
+.grid-heading-row {
+	background: transparent;
+}
+
+.dropdown-menu {
+	border-radius: var(--egx-radius);
+	border: 1px solid var(--egx-border);
+	box-shadow: var(--egx-shadow-md);
+}
+
+.erpgenex-theme-studio-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+	font-size: 0.86rem;
+	color: var(--egx-muted);
+}
+
+.erpgenex-theme-studio-badge::before {
+	content: "";
+	width: 0.65rem;
+	height: 0.65rem;
+	border-radius: 999px;
+	background: linear-gradient(135deg, var(--egx-primary), color-mix(in srgb, var(--egx-primary) 55%, white));
+}
+
+/* One-click theme entry in top navbar (next to user avatar) */
+.erpgenex-theme-toolbar-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+	border-radius: calc(var(--egx-radius) - 2px);
+	padding: 0.25rem 0.45rem;
+	color: var(--egx-muted);
+	font-size: 0.8125rem;
+	font-weight: 600;
+}
+
+.erpgenex-theme-toolbar-btn:hover,
+.erpgenex-theme-toolbar-btn:focus-visible {
+	color: var(--egx-primary);
+	background: color-mix(in srgb, var(--egx-primary) 10%, transparent);
+	outline: none;
+	box-shadow: var(--egx-focus);
+}
+
+.erpgenex-theme-toolbar-label {
+	max-width: 5.5rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+@media (max-width: 991px) {
+	html,
+	body {
+		font-size: calc(var(--egx-font-size) - 1px);
+	}
+
+	.erpgenex-theme-toolbar-label {
+		display: none;
+	}
+}
