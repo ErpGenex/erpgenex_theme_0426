@@ -1,29 +1,300 @@
-Preset,قالب مسبق
-Primary,اللون الأساسي
-Primary contrast,لون النص فوق الأساسي
-Background,لون الخلفية
-Surface,لون السطح
-Foreground,لون النص
-Font stack,حزمة الخطوط
-Base font size,حجم الخط الأساسي
-Density,كثافة الواجهة
-Corner style,نمط الزوايا
-Theme mode,وضع المظهر
-ERPGenEx Desk Theme Studio,استوديو مظهر ERPGENEX للمكتب
-Apply,تطبيق
-Reset,إعادة ضبط
-Theme applied for your user session,تم تطبيق المظهر لهذه الجلسة
-Theme reset to company default,تمت إعادة المظهر إلى الافتراضي للشركة
-Theme,المظهر
-Theme — colors, font, light/dark (click or Alt+Shift+T),المظهر — الألوان والخط والوضع الفاتح/الداكن (انقر أو Alt+Shift+T)
-Open theme settings,فتح إعدادات المظهر
-Theme & appearance (ERPGenEx),المظهر والمظهر العام (ERPGENEX)
-compact,مدمج
-comfortable,مريح
-spacious,واسع
-classic,كلاسيكي
-soft,ناعم
-rounded,دائري
-auto,تلقائي
-light,فاتح
-dark,داكن
+Accounting,المحاسبة
+Accounts Payable,الذمم الدائنة
+Accounts Receivable,الذمم المدينة
+Actions,إجراءات
+Administrator,المسؤول
+Agriculture,الزراعة
+AI & Intelligence,الذكاء الاصطناعي والتحليلات
+All,الكل
+All activities,كل الأنشطة
+All branches,كل الفروع
+ALM,إدارة الأصول والخصوم
+Asset Insurance,تأمين الأصول
+Assigned To,مُسند إلى
+Assigned To Me,المُسند إليّ
+Attachments,المرفقات
+Audit,التدقيق
+Balance Sheet,الميزانية العمومية
+Bank Unmatched Statement Lines,بنود كشف بنك غير مطابقة
+Billing & collections,الفوترة والتحصيل
+Bookings & registration,الحجوزات والتسجيل
+BOQ,جدول الكميات
+Branch,الفرع
+Budget & cost control,الميزانية وضبط التكلفة
+Buy,المشتريات
+CAM & recoveries,المصاريف المشتركة والاستردادات
+CAM Budget,ميزانية المصاريف المشتركة
+Campaign ROI,عائد الحملة
+Cancel,إلغاء
+Car Rental,تأجير السيارات
+Card Break,قسم
+Case Title,عنوان القضية
+Chart,مخطط
+Chart of Accounts,دليل الحسابات
+Client Registration Document,مستند تسجيل العميل
+Client Registration Request,طلب تسجيل عميل
+Closed,مغلق
+Commission Accrual,استحقاق العمولات
+Commission Schedule,جدول العمولات
+Company,الشركة
+Completed,مكتمل
+Compliance checks complete,اكتملت فحوصات الامتثال
+Compliance Exceptions,استثناءات الامتثال
+Compliance Exceptions (IFRS),استثناءات الامتثال (IFRS)
+Compliance Exceptions (Tax),استثناءات الامتثال (ضريبي)
+Compliance Exceptions Dashboard,لوحة استثناءات الامتثال
+Compliance Reports,تقارير الامتثال
+Construction,المقاولات
+Construction & Engineering,المقاولات والهندسة
+Consumer Finance,التمويل الاستهلاكي
+Core ERP,ERP الأساسي
+Cost Center,مركز التكلفة
+Country,الدولة
+Court,المحكمة
+Create,إنشاء
+Credit Engine,محرك الائتمان
+Credit Risk,مخاطر الائتمان
+CRM,إدارة العملاء
+Cross-module operations,عمليات متكاملة
+Currency,العملة
+Custom Documents,المستندات المخصصة
+Customer,العميل
+Dashboard,لوحة معلومات
+Delete,حذف
+Design & quantities (BOQ),التصميم والكميات (جدول الكميات)
+Desk,المكتب
+Development Budget,ميزانية التطوير
+Development Project,مشروع تطوير
+Development Project Register,سجل مشاريع التطوير
+Development project register,سجل مشاريع التطوير
+Documents & Integration,المستندات والتكامل
+E-Invoice,الفاتورة الإلكترونية
+Edit,تعديل
+Education,التعليم
+Engineering Consulting,الاستشارات الهندسية
+Erpgenex Property Mgmt,إدارة العقارات
+Erpgenex Realestate Dev,التطوير العقاري
+Erpgenex Realestate Sales,التسويق العقاري
+ERPGENEX — Core ERP,ERPGENEX — ERP الأساسي
+ERPGENEX — Dashboard,ERPGENEX — لوحة المعلومات
+Escalation Rule,قاعدة تصعيد الإيجار
+Event,حدث
+Executive Dashboard,لوحة المدير التنفيذية
+Explore this workspace,استكشف مساحة العمل
+Factoring,التخصيم
+Field PWA,تطبيق الميدان
+Filters,المرشحات
+Finance Control Exceptions,استثناءات الضوابط المالية
+Finance Control Violations,مخالفات الضوابط المالية
+Finance Controls,الضوابط المالية
+Finance Engine,محرك التمويل
+Finance Group,المجموعة المالية
+Finance SoD Blocks,حظر فصل المهام (SoD)
+Finance Workcenter,مركز عمل المالية
+Fixed Assets,الأصول الثابتة
+Form,نموذج
+Further,المزيد
+General Ledger,دفتر الأستاذ العام
+GL Account,حساب GL
+Global Defaults,الإعدادات العامة
+Governance,الحوكمة
+Governance Overview,نظرة عامة على الحوكمة
+Guest,زائر
+Handover & defects (snagging),التسليم والعيوب
+Handover Package,حزمة التسليم
+Healthcare,الرعاية الصحية
+Help,مساعدة
+Home,الرئيسية
+HR,الموارد البشرية
+IFRS 16 Liability,التزام الإيجار IFRS 16
+In Progress,قيد التنفيذ
+Industry Solutions,حلول القطاعات
+Insights,رؤى وتحليلات
+Inventory & development context,المخزون وسياق التطوير
+Inventory KPI Dashboard,لوحة مؤشرات المخزون
+Inventory KPIs,مؤشرات المخزون
+Inventory Low Stock Items,أصناف منخفضة المخزون
+Inventory Reorder Needed,أصناف تحتاج إعادة طلب
+Inventory Stock Items,أصناف المخزون
+Item,الصنف
+Journal Entry,قيد يومية
+Land & project charter,الأرض وميثاق المشروع
+Land Parcel,قطعة أرض
+Language,اللغة
+Last Month,الشهر الماضي
+Last Week,الأسبوع الماضي
+Law Firm,مكتب محاماة
+Lawyer Profile,ملف المحامي
+Lead acquisition & qualification,اكتساب العملاء وتأهيلهم
+Leasing & occupancy (IFRS 16 / IPSAS rent),التأجير والإشغال (IFRS 16 / IPSAS)
+Leasing Finance,التمويل التأجيري
+Leasing Mandate,تفويض تأجير
+Legal,القانون
+Legal Appointment,موعد قانوني
+Legal Branch,فرع قانوني
+Legal Case,قضية قانونية
+Legal Client,عميل قانوني
+Legal Conflict Check,فحص تعارض المصالح
+Legal Consultation,استشارة قانونية
+Legal Department,الإدارة القانونية
+Legal Document,مستند قانوني
+Legal Hearing,جلسة محكمة
+Legal Jurisdiction,الاختصاص القضائي
+Legal Matter,ملف قانوني
+Legal Office,المكتب القانوني
+Legal Power of Attorney,توكيل قانوني
+Legal Settings,إعدادات القانون
+Legal Task,مهمة قانونية
+List,قائمة
+Login,تسجيل الدخول
+Logout,تسجيل الخروج
+Maintenance — service requests,الصيانة — طلبات الخدمة
+Management Agreement,اتفاقية إدارة
+Manufacturing,التصنيع
+Menu,القائمة
+Mortgage Finance,التمويل العقاري
+My work,عملي
+New,جديد
+None,لا شيء
+Notifications,الإشعارات
+Number Card,بطاقة رقمية
+Occupancy,الإشغال
+Omnexa Accounting Settings,إعدادات محاسبة Omnexa
+Omnexa Marketplace Settings,إعدادات سوق Omnexa
+Omnexa Purchase Settings,إعدادات مشتريات Omnexa
+Omnexa Sales Settings,إعدادات مبيعات Omnexa
+Omnexa Settings,إعدادات Omnexa
+Omnexa Stock Settings,إعدادات مخزون Omnexa
+Open,مفتوح
+Open report Compliance Exceptions Dashboard,فتح تقرير لوحة استثناءات الامتثال
+Operating Scenarios,سيناريوهات التشغيل
+Operational Risk,المخاطر التشغيلية
+Other,أخرى
+Overdue,متأخر
+Owner reporting & trust accounting,تقارير الملاك والحسابات الائتمانية
+Owner Statement,كشف حساب المالك
+Payment Entry,سند قبض/صرف
+Payment Plan Item,بند خطة السداد
+Pending,قيد الانتظار
+Permit Milestone,معلم التصريح
+Platform & Administration,المنصة والإدارة
+PMC Lease Liability Schedule,جدول التزام الإيجار IFRS 16
+PMC Leasing Mandate,تفويض تأجير
+PMC Management Agreement,اتفاقية إدارة
+PMC Management Fee Summary,ملخص رسوم الإدارة
+PMC Occupancy Summary,ملخص الإشغال
+PMC Owner Statement,كشف حساب المالك
+PMC Owner Statement Register,سجل كشوف الملاك
+PMC Property,عقار
+PMC Property Unit,وحدة عقارية
+PMC Rent Aging,أعمار الإيجارات
+PMC Rent Billing Register,سجل فوترة الإيجار
+PMC Rent Roll,سجل الإيجارات
+PMC Rental Contract Register,سجل عقود الإيجار
+Portfolio & asset registry,المحفظة وسجل الأصول
+Practice Area,مجال الممارسة
+Profile,الملف الشخصي
+Profit and Loss,الأرباح والخسائر
+Project EV,القيمة المكتسبة للمشروع
+Projects & Services,المشاريع والخدمات
+Projects PM,إدارة المشاريع
+Property,عقار
+Property Management,إدارة العقارات
+Property Sales Booking Register,سجل حجوزات البيع
+Property Sales Lead,عميل مبيعات عقارية
+Purchase Invoice,فاتورة شراء
+Purchase Register,سجل المشتريات
+RE BOQ,جدول كميات التطوير
+RE Development,التطوير العقاري
+RE Handover Package,حزمة التسليم
+RE Marketing,التسويق العقاري
+RE Permit Milestone,معلم التصريح
+RE Project EV,القيمة المكتسبة للمشروع
+RE Subcontract Commitment,التزام مقاول باطن
+RE Unit Inventory,مخزون وحدات التطوير
+RE unit inventory (sales),مخزون وحدات البيع
+RE Unit Inventory Overview,نظرة عامة على مخزون الوحدات
+Real Estate,العقارات
+Refresh,تحديث
+Reload,إعادة تحميل
+Rent Aging,أعمار الإيجارات
+Rent billing register,سجل فوترة الإيجار
+Rent Billing Run,تشغيل فوترة الإيجار
+Rent Roll,سجل الإيجارات
+Rental Contract,عقد إيجار
+Rental contract register,سجل عقود الإيجار
+Report,تقرير
+Reservation register,سجل الحجوزات
+Reservations & unit holds,الحجوزات وحجز الوحدات
+Restaurant,المطاعم
+"Return here for shortcuts, charts, and lists for **Audit & Compliance**.",ارجع هنا للاختصارات والمخططات والقوائم لـ **التدقيق والامتثال**.
+"Return here for shortcuts, charts, and lists for **Core ERP**.",ارجع هنا للاختصارات والمخططات والقوائم لـ **ERP الأساسي**.
+Sales Booking,حجز بيع
+Sales booking register,سجل حجوزات البيع
+Sales Commission Accrual,استحقاق عمولات المبيعات
+Sales Commission Schedule,جدول عمولات المبيعات
+Sales Invoice,فاتورة مبيعات
+Sales Lead,عميل محتمل
+Sales Portal,بوابة المبيعات
+Sales Register,سجل المبيعات
+Save,حفظ
+Search or type a command,ابحث أو اكتب أمرًا
+Search or type a command ({0}),ابحث أو اكتب أمرًا ({0})
+Sell,المبيعات
+Services,الخدمات
+Settings,الإعدادات
+Shortcut,اختصار
+SME Microfinance,التمويل متناهي الصغر
+SME Retail Finance,تمويل المنشآت والتجزئة
+Stock,المخزون
+Subcontract,مقاول باطن
+Submit,إرسال
+Supplier,المورد
+System Manager,مدير النظام
+Task List,قائمة المهام
+This Month,هذا الشهر
+This Week,هذا الأسبوع
+Timezone,المنطقة الزمنية
+Today,اليوم
+ToDo,مهمة
+Tourism,السياحة
+Trading,التجارة
+Trading & Manufacturing,التجارة والتصنيع
+Trial Balance,ميزان المراجعة
+Unit,وحدة
+Unit Inventory,مخزون الوحدات
+Unit inventory & sales readiness,مخزون الوحدات وجاهزية البيع
+Unit inventory overview,نظرة عامة على مخزون الوحدات
+Unit Reservation,حجز وحدة
+Unit Reservation Register,سجل حجز الوحدات
+Update,تحديث
+Vehicle Finance,تمويل المركبات
+Warehouse,المستودع
+Workspace,مساحة العمل
+Workspaces,مساحات العمل
+Yesterday,أمس
+You are ready to work in Core ERP.,أنت جاهز للعمل في ERP الأساسي.
+✅ Handover,✅ التسليم
+🎯 CRM,🎯 إدارة العملاء
+🏗️ Projects,🏗️ المشاريع
+🏢 Organization,🏢 التنظيم والإعداد
+🏢 Organization & Setup,🏢 التنظيم والإعداد
+🏢 Portfolio,🏢 المحفظة العقارية
+👥 HR & Users,👥 الموارد البشرية والمستخدمون
+💰 Billing · Finance · ERP,💰 الفوترة · المالية · ERP
+💰 Commissions,💰 العمولات
+💰 Finance & ERP,💰 المالية · ERP
+💰 Owner & CAM,💰 المالك والمصاريف المشتركة
+📈 Reports,📈 التقارير
+📊 Analytics,📊 التحليلات
+📊 Dashboards,📊 لوحات المعلومات
+📊 Dashboards & Portals,📊 لوحات المعلومات والبوابات
+📊 Dashboards & portals,📊 لوحات المعلومات والبوابات
+📋 Commercial,📋 التجاري
+📋 Leasing,📋 التأجير
+📋 Operations,📋 العمليات
+📐 BOQ & inventory,📐 جدول الكميات والمخزون
+📦 Inventory & Supply,📦 المخزون والتوريد
+🔗 Integration,🔗 التكامل
+🚚 Field operations,🚚 العمليات الميدانية
+🛡️ Compliance,🛡️ الامتثال
